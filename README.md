@@ -12,7 +12,7 @@ The folder contains Matlab scripts (.m) that can be run on any computer where Ma
 Once the scripts are opened on Matlab, they can simply be run by clicking the “Run” command in the “Editor” section. 
 
 
-The scripts used to generate the data for Figure 2 can be found in the “Main scripts” folder, while the remaining folders contains the scripts for the parameter sweeps that were used to generate the data in figure 4 and supplementary figure 10.
+The scripts used to generate the data for Figure 2 are named "mainRPS_grid_RPS1" and "mainRPS_grid_RPS2", while the remaining files contains the scripts for the parameter sweeps that were used to generate the data in figure 4 and supplementary figure 10.
 
 The code contains different parameters that can be adjusted to simulate different results. For example the initial spatial distribution of “cells” and the relative minimum and maximum probability of death of each cell type. For visualization, if the PLOT variable is set to 1 the code generates a video of the simulated lattice. If the variable SAVE is set to 1, all the lattice frames are saved in the relative folder specified. If the variable VIDEO is set to 1, a video is saved in the same folder at the end of the simulation. 
 
